@@ -1,0 +1,32 @@
+.navbar-main {
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 0 2.5rem;
+  height: 58px;
+  position: fixed;
+  top: 0;
+  left: 250px;
+  right: 0;
+  z-index: 1;
+}
+
+.user-navlink {
+  display: flex;
+  align-items: center;
+  &__avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: #eff0f4;
+    font-weight: 700;
+    color: #525f7f;
+    margin-right: 8px;
+    i.ni {
+      top: 0;
+      font-size: 16px;
+    }
+  }
+}

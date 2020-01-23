@@ -1,0 +1,24 @@
+// VARIABLES
+$bodycolor: #525f7f;
+@import '~element-ui/lib/theme-chalk/index.css';
+@import '~vue2-dropzone/dist/vue2Dropzone.min.css';
+// @import '~buefy/dist/buefy.css';
+@import './admin/colors';
+// COMPONENTS
+@import './components/all';
+
+// PARTIALS
+@import './admin/type';
+@import './admin/util';
+@import './admin/sidebar';
+@import './admin/navbar';
+@import './admin/content';
+@import './admin/buttons';
+@import './admin/tables';
+@import './admin/draggable';
+
+@import './admin/colors';
+
+
+
+

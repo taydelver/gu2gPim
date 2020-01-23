@@ -1,0 +1,25 @@
+body {
+    color: $bodycolor;
+}
+.main-content-right {
+    margin-left: 250px;
+    padding-top: 58px;
+}
+
+.page {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-top: 1.5rem;
+    position: relative;
+}
+
+.content-header {
+    margin-bottom: 1rem;
+    display: flex;
+    .action-group {
+        margin-left: auto;
+    }
+    h2 {
+        margin-bottom: 0;
+    }
+}
